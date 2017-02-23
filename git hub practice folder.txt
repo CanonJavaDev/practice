@@ -1,1 +1,2 @@
-Hi this is a sample text file of git example
+Hello Guys,
+This is a sample text file of Git Example!!
