@@ -1,0 +1,15 @@
+public class Outer
+{
+	class Inner
+	{
+		public void m1()
+		{
+			System.out.println("Method Inner Class");
+		}
+	}
+		public static void main(String[] args)
+		{
+			Outer.Inner i = new Inner();
+			i.m1();
+		}
+	}

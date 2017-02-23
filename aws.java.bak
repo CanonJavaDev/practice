@@ -1,0 +1,39 @@
+import java.util.*;
+
+class AwsExercise {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Student");				
+		myHandler();
+	}
+	public static Test myHandler()
+	{
+		String sname="";
+		int sid = 0;
+		Test T = new Test();
+		T.setSname(sname);
+		T.setSid(sid);
+		return T;
+		
+	}
+
+}
+class Test {
+
+	String sname;
+	int sid;
+	public String getSname() {
+		return sname;
+	}
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+	public int getSid() {
+		return sid;
+	}
+	public void setSid(int sid) {
+		this.sid = sid;
+	}
+	
+}

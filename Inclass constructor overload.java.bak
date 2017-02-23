@@ -1,0 +1,21 @@
+//inclass inheritance
+
+import java.io.*;
+
+class A
+{
+	int a = 100;
+	itn b = 200;
+}
+class B extends A
+{
+	public void sub()
+	{
+		System.out.println(b-a);
+	}
+	public static void main(String args[])
+	{
+		B b = new B();
+		b.sub();
+	}
+}
